@@ -64,22 +64,24 @@
     <?= $this->renderSection('content') ?>
   </div>
 
-  <section class="footer">
+  <section class="section-footer">
     <div class="container" style="padding-top: 45px;">
       <div class="row">
         <div class="col-xl-12 text-white text-justify">
-          <div class="col-xl-4">
-            <h4 style="text-align: left;">About Us</h4>
-            <p>TRAVEL.in is a private retailer or public service that provides travel and tourism-related services to the general public on behalf of accommodation or travel suppliers to offer different kinds of travelling packages for each destination. </p>
-          </div>
-          <div class="col-xl-4 my-auto">
-            <h4 style="text-align: left;">Contact Info</h4>
-            <p>Alamat</p>
-            <p>Telpon</p>
-            <p>email</p>
-          </div>
-          <div>
-            <h4 style="text-align: left;">Travel.in</h4>
+          <div class="row">
+            <div class="col-xl-4">
+              <h4 style="text-align: left;">About Us</h4>
+              <p>TRAVEL.in is a private retailer or public service that provides travel and tourism-related services to the general public on behalf of accommodation or travel suppliers to offer different kinds of travelling packages for each destination. </p>
+            </div>
+            <div class="col-xl-4">
+              <h4 style="text-align: left;">Contact Info</h4>
+              <p>Alamat</p>
+              <p>Telpon</p>
+              <p>email</p>
+            </div>
+            <div>
+              <h4 style="text-align: left;">Travel.in</h4>
+            </div>
           </div>
         </div>
       </div>
