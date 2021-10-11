@@ -65,26 +65,41 @@
   </div>
 
   <section class="section-footer">
-    <div class="container" style="padding-top: 45px;">
+    <div class="container py-4">
       <div class="row">
-        <div class="col-xl-6 text-white text-justify">
-          <div class="row">
-            <div class="col-xl-6">
-              <h4 style="text-align: left;">About Us</h4>
-              <p>TRAVEL.in is a private retailer or public service that provides travel and tourism-related services to the general public on behalf of accommodation or travel suppliers to offer different kinds of travelling packages for each destination. </p>
+        <div class="col-xl-5">
+          <h3 class="title-footer">About Us</h3>
+          <p class="text-footer">TRAVEL.in is a private retailer or public service that provides travel and tourism-related services to the general public on behalf of accommodation or travel suppliers to offer different kinds of travelling packages for each destination.</p>
+        </div>
+        <div class="col-xl-4">
+          <h3 class="title-footer">Contact Us</h3>
+          <div class="text-footer">
+            <div class="d-flex mt-1">
+              <i class="fa fa-home mt-1 mr-2" aria-hidden="true"></i>
+              <p>
+                12345. West Jakarta St. South Meruya,
+                <br>
+                Indonesia
+              </p>
             </div>
-            <div class="col-xl-4">
-              <h4 style="text-align: left;">Contact Info</h4>
-              <p>Alamat</p>
-              <p>Telpon</p>
-              <p>email</p>
+            <div class="d-flex mt-1">
+              <i class="fa fa-phone mt-1 mr-2" aria-hidden="true"></i>
+              <p>
+                +[12] 3456 7890
+              </p>
             </div>
-            <div>
-              <h4 style="text-align: left;">Travel.in</h4>
-              <p>Instagram</p>
-              <p>Twitter</p>
-              <p>Facebook</p>
+            <div class="d-flex mt-1">
+              <i class="fa fa-envelope mt-1 mr-2" aria-hidden="true"></i>
+              <a class="a_section_info" href="mailto: support@travelin.com">
+                support@travelin.com
+              </a>
             </div>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <h3 class="title-footer">Travel.in</h3>
+          <div class="pt-5 mt-5" style="text-align: end;">
+            <a href="#" class="btn btn-view-more">Side Map</a>
           </div>
         </div>
       </div>
