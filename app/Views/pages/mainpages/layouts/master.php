@@ -67,9 +67,9 @@
   <section class="section-footer">
     <div class="container" style="padding-top: 45px;">
       <div class="row">
-        <div class="col-xl-12 text-white text-justify">
+        <div class="col-xl-6 text-white text-justify">
           <div class="row">
-            <div class="col-xl-4">
+            <div class="col-xl-6">
               <h4 style="text-align: left;">About Us</h4>
               <p>TRAVEL.in is a private retailer or public service that provides travel and tourism-related services to the general public on behalf of accommodation or travel suppliers to offer different kinds of travelling packages for each destination. </p>
             </div>
@@ -81,6 +81,9 @@
             </div>
             <div>
               <h4 style="text-align: left;">Travel.in</h4>
+              <p>Instagram</p>
+              <p>Twitter</p>
+              <p>Facebook</p>
             </div>
           </div>
         </div>
