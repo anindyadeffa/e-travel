@@ -11090,15 +11090,6 @@ hr {
   color: #c3c3c3 !important;
 }
 
-/*footer*/
-section.footer {
-  color: #fff;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),
-    url(../img/nusa-penida-ls.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .section-details-header {
   min-height: 310px;
   background: #e4e6eb;
@@ -11233,4 +11224,10 @@ section.footer {
 
 .section-package {
   background-color: #9ac9dd;
+}
+
+.section-footer {
+  background-color: #9ac9dd;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
