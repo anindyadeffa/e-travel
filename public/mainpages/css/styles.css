@@ -10941,10 +10941,6 @@ section.youtube {
 /* . */
 
 /*navbar*/
-.btn-login {
-  background-color: #9ac9dd;
-  color: #fff;
-}
 
 .btn-navbar-right {
   margin-top: -10px !important;
@@ -11103,22 +11099,6 @@ section.footer {
   background-size: cover;
 }
 
-.color-basic {
-  color: #98c8db !important;
-  text-decoration: none !important;
-}
-
-.color-basic-head {
-  color: #071c4d !important;
-  text-decoration: none !important;
-}
-
-.color-basic:hover,
-.color-basic:focus {
-  z-index: 1 !important;
-  color: #071c4d !important;
-}
-
 .section-details-header {
   min-height: 310px;
   background: #e4e6eb;
@@ -11208,4 +11188,49 @@ section.footer {
 .member-image {
   width: 40px;
   height: 40px;
+}
+
+/* e-travel */
+
+.color-basic {
+  color: #98c8db !important;
+  text-decoration: none !important;
+}
+
+.color-basic-head {
+  color: #071c4d !important;
+  text-decoration: none !important;
+}
+
+.color-basic:hover,
+.color-basic:focus {
+  z-index: 1 !important;
+  color: #071c4d !important;
+}
+
+.btn-login {
+  background-color: #9ac9dd;
+  color: #fff;
+  border-radius: 12px;
+}
+
+.btn-login:hover {
+  background-color: #071c4d;
+  color: #fff;
+}
+
+.btn-view-more {
+  background-color: #fff;
+  color: #9ac9dd;
+  font-weight: bold !important;
+  border-radius: 12px;
+}
+
+.btn-view-more:hover {
+  background-color: #071c4d;
+  color: #fff;
+}
+
+.section-package {
+  background-color: #9ac9dd;
 }

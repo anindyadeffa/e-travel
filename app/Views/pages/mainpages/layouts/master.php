@@ -31,22 +31,22 @@
         <div class="collapse navbar-collapse" id="navb">
           <ul class="navbar-nav ml-auto mr-3">
             <li class="nav-item mx-xl-2">
-              <a href="#" class="nav-link color-basic">HOME</a>
+              <a class="nav-link color-basic" href="<?php echo base_url('/') ?>">HOME <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item mx-xl-2">
-              <a href="#" class="nav-link color-basic">TRAVEL PACKAGE</a>
+              <a class="nav-link color-basic" href="<?php echo base_url('#') ?>">TRAVEL PACKAGE</a>
             </li>
             <li class="nav-item mx-xl-2">
-              <a href="#" class="nav-link color-basic">ABOUT</a>
+              <a class="nav-link color-basic" href="<?php echo base_url('#') ?>">ABOUT</a>
             </li>
             <li class="nav-item mx-xl-2">
-              <a href="#" class="nav-link color-basic">CONTACT US</a>
+              <a class="nav-link color-basic" href="<?php echo base_url('#') ?>">CONTACT US</a>
             </li>
           </ul>
           <!-- mobile button -->
           <form class="form-inline d-xl-block d-xl-none">
-            <button class="btn btn-login my-2 my-xl-0" style="border-radius: 12px;">
-              <p class="mb-0 font-weight-bold">LOG IN</p>
+            <button class="btn btn-login my-2 my-xl-0">
+              <p href="#" class="mb-0 font-weight-bold">LOG IN</p>
             </button>
           </form>
           <!-- desktop button -->
