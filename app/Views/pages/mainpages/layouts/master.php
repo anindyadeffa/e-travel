@@ -40,7 +40,7 @@
               <a class="nav-link color-basic" href="<?php echo base_url('#') ?>">ABOUT</a>
             </li>
             <li class="nav-item mx-xl-2">
-              <a class="nav-link color-basic" href="<?php echo base_url('/contact-us') ?>">CONTACT US</a>
+              <a class="nav-link color-basic" href="<?php echo base_url('/contact') ?>">CONTACT US</a>
             </li>
           </ul>
           <!-- mobile button -->

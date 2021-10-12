@@ -21,45 +21,53 @@
                 <p class="text-white">Discover more popular destinations in Indonesia</p>
             </div>
             <div class="col-xl-2 my-4 pl-5">
-                <a href="#" class="btn btn-view-more my-xl-0 mb-0">VIEW MORE</a>
+                <a href="<?php echo base_url('/package') ?>" class="btn btn-view-more my-xl-0 mb-0">VIEW MORE</a>
             </div>
         </div>
         <div class="row justify-content-center">
             <div class="col-xl-3 mb-2">
-                <div class="card-travel text-center d-flex flex-column" style="background-image: url(img/bali.jpg);">
-                    <div class="travel-country mt-3">INDONESIA</div>
-                    <div class="travel-location">DERATAN, BALI</div>
-                    <div class="mt-auto">
-                        <a href="#" class="btn btn-view-more font-weight-bold px-4 mb-3">View Details</a>
+                <a class="a_section_info" href="<?php echo base_url('/package-details') ?>">
+                    <div class="card-travel">
+                        <img src="<?php echo base_url('/mainpages/img/bromo.jpg'); ?>" class="img-package" alt="...">
+                        <div class="card-body w-100" style="position: absolute;">
+                            <div class="travel-location" style="text-align: center;">BROMO MOUNT</div>
+                            <div class="travel-country" style="text-align: center;">EAST JAVA</div>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-xl-3 mb-2">
-                <div class="card-travel text-center d-flex flex-column" style="background-image: url(img/bromo.jpg);">
-                    <div class="travel-country mt-3">INDONESIA</div>
-                    <div class="travel-location">BROMO, MALANG</div>
-                    <div class="mt-auto">
-                        <a href="#" class="btn btn-view-more font-weight-bold px-4 mb-3">View Details</a>
+                <a class="a_section_info" href="<?php echo base_url('/package') ?>">
+                    <div class="card-travel">
+                        <img src="<?php echo base_url('/mainpages/img/bali.jpg'); ?>" class="img-package" alt="...">
+                        <div class="card-body w-100" style="position: absolute;">
+                            <div class="travel-location" style="text-align: center;">DERATAN</div>
+                            <div class="travel-country" style="text-align: center;">BALI</div>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-xl-3 mb-2">
-                <div class="card-travel text-center d-flex flex-column" style="background-image: url(img/nusa_penida.jpg);">
-                    <div class="travel-country mt-3">INDONESIA</div>
-                    <div class="travel-location">NUSA PENIDA</div>
-                    <div class="mt-auto">
-                        <a href="#" class="btn btn-view-more font-weight-bold px-4 mb-3">View Details</a>
+                <a class="a_section_info" href="<?php echo base_url('/package') ?>">
+                    <div class="card-travel">
+                        <img src="<?php echo base_url('/mainpages/img/nusa_penida.jpg'); ?>" class="img-package" alt="...">
+                        <div class="card-body w-100" style="position: absolute;">
+                            <div class="travel-location" style="text-align: center;">NUSA PENIDA</div>
+                            <div class="travel-country" style="text-align: center;">BALI</div>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-xl-3 mb-2">
-                <div class="card-travel text-center d-flex flex-column" style="background-image: url(img/dubai.jpg);">
-                    <div class="travel-country mt-3">MIDDLE EAST</div>
-                    <div class="travel-location">DUBAI</div>
-                    <div class="mt-auto">
-                        <a href="#" class="btn btn-view-more font-weight-bold px-4 mb-3">View Details</a>
+                <a class="a_section_info" href="<?php echo base_url('/package') ?>">
+                    <div class="card-travel">
+                        <img src="<?php echo base_url('/mainpages/img/raja-ampat.jpg'); ?>" class="img-package" alt="...">
+                        <div class="card-body w-100" style="position: absolute;">
+                            <div class="travel-location" style="text-align: center;">RAJA AMPAT</div>
+                            <div class="travel-country" style="text-align: center;">PAPUA</div>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
