@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </meta>
   <meta http-equiv="X-UA-Compatible" content="ie-edge">
-  <title>Homepage</title>
+  <title>Travel.in</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
   <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> -->
@@ -34,13 +34,13 @@
               <a class="nav-link color-basic" href="<?php echo base_url('/') ?>">HOME <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item mx-xl-2">
-              <a class="nav-link color-basic" href="<?php echo base_url('#') ?>">TRAVEL PACKAGE</a>
+              <a class="nav-link color-basic" href="<?php echo base_url('/package') ?>">TRAVEL PACKAGE</a>
             </li>
             <li class="nav-item mx-xl-2">
               <a class="nav-link color-basic" href="<?php echo base_url('#') ?>">ABOUT</a>
             </li>
             <li class="nav-item mx-xl-2">
-              <a class="nav-link color-basic" href="<?php echo base_url('#') ?>">CONTACT US</a>
+              <a class="nav-link color-basic" href="<?php echo base_url('/contact-us') ?>">CONTACT US</a>
             </li>
           </ul>
           <!-- mobile button -->
