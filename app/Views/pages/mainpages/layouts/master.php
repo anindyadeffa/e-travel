@@ -107,14 +107,18 @@
   </section>
 
   <script src="<?php echo base_url('/mainpages/libraries/jquery/jquery.js') ?>"></script>
-  <script src="<?php echo base_url('/mainpages/libraries/popper.js/popper.js') ?>"></script>
   <script src="<?php echo base_url('/mainpages/libraries/bootstrap/bootstrap.js') ?>"></script>
+  <script src="<?php echo base_url('/mainpages/libraries/jquery/jquery.min.js') ?>"></script>
+  <script src="<?php echo base_url('/mainpages/libraries/bootstrap/bootstrap.min.js') ?>"></script>
+  <script src="<?php echo base_url('/mainpages/libraries/popper.js/popper.js') ?>"></script>
   <script src="<?php echo base_url('/mainpages/libraries/perfect-scrollbar/js/perfect-scrollbar.jquery.js') ?>"></script>
-  <script src="<?php echo base_url('/mainpages/libraries/moment/moment.js') ?>"></script>
   <script src="<?php echo base_url('/mainpages/libraries/jquery-ui/jquery-ui.js') ?>"></script>
   <script src="<?php echo base_url('/mainpages/libraries/jquery-switchbutton/jquery.switchButton.js') ?>"></script>
   <script src="<?php echo base_url('/mainpages/libraries/peity/jquery.peity.js') ?>"></script>
-  <script src="<?php echo base_url('/mainpages/libraries/js/bracket.js') ?>"></script>
+  <script src="<?php echo base_url('/mainpages/libraries/retina/retina.min.js') ?>"></script>
+  <script src="<?php echo base_url('/mainpages/libraries/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 </body>
 
 </html>
