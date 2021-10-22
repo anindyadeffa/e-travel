@@ -80,13 +80,13 @@
                 <img src="/mainpages/img/about-1.png" class="w-75 h-100" alt="">
             </div>
             <div class="col-xl-6 mt-5">
-                <h1 class="title-about">TRANSPORTATION</h1>
+                <h1 class="title-about text-uppercase">TRANSPORTATION</h1>
                 <p class="desc-about">Transportation is the act of moving something from one place to another. Transportation may take place by air, water, rail, road, pipeline, or cable routes, using planes, boats, trains, trucks, and telecommunications equipment as the means of transportation.</p>
             </div>
         </div>
         <div class="row d-flex mt-5">
             <div class="col-xl-6 mt-5">
-                <h1 class="title-about">TOUR GUIDE</h1>
+                <h1 class="title-about text-uppercase">TOUR GUIDE</h1>
                 <p class="desc-about">Tour guides accompany groups of visitors to tourist attractions, whether on day trips or longer visits, and give them information and insights that help them make the most of the experience.</p>
             </div>
             <div class="col-xl-6">
@@ -98,7 +98,7 @@
                 <img src="/mainpages/img/about-3.png" class="w-75 h-100" alt="">
             </div>
             <div class="col-xl-6 mt-5">
-                <h1 class="title-about">CULINARY LOCAL FOOD</h1>
+                <h1 class="title-about text-uppercase">CULINARY LOCAL FOOD</h1>
                 <p class="desc-about">Local food usually refers to food that is produced and distributed in a specific geographic area. Recipes and ways of making local culinary are usually passed down from generation to generation. That's why local traditional cuisine has a lot of uniqueness and is rich in various flavors.</p>
             </div>
         </div>

@@ -11,6 +11,7 @@
     <link href="<?php echo base_url('/dashboard/vendor/fontawesome-free/css/all.min.css'); ?>" rel="stylesheet" type="text/css">
     <link href="<?php echo base_url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i'); ?>" rel="stylesheet">
     <link href="<?php echo base_url('/dashboard/css/sb-admin-2.min.css'); ?>" rel="stylesheet">
+    <link href="<?php echo base_url('/dashboard/vendor/datatables/dataTables.bootstrap4.min.css'); ?>" rel="stylesheet">
 
 </head>
 
@@ -24,7 +25,7 @@
                 <div class="sidebar-brand-text mx-3">Travel.In</div>
             </a>
             <hr class="sidebar-divider my-0">
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url('/admin') ?>">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span>
@@ -32,27 +33,67 @@
             </li>
             <hr class="sidebar-divider">
             <div class="sidebar-heading">
-                Interface
+                Data
             </div>
             <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url('/user'); ?>">
+                    <i class="fas fa-fw fa-user"></i>
+                    <span>User</span>
+                </a>
+            </li>
+            <hr class="sidebar-divider">
+            <div class="sidebar-heading">
+                Content Management System
+            </div>
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url('/header'); ?>">
+                    <i class="fas fa-fw fa-newspaper"></i>
+                    <span>Header</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url('/about'); ?>">
+                    <i class="fas fa-fw fa-newspaper"></i>
+                    <span>About</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url('/info'); ?>">
+                    <i class="fas fa-fw fa-phone"></i>
+                    <span>Contact Information</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url('/admin'); ?>">
+                    <i class="fas fa-fw fa-plane"></i>
+                    <span>Travel Package</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url('/admin'); ?>">
+                    <i class="fas fa-fw fa-shopping-cart"></i>
+                    <span>Payment Confirmation</span>
+                </a>
+            </li>
+            <!-- <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
                     <i class="fas fa-fw fa-folder"></i>
-                    <span>Pages</span>
+                    <span>Content Management System</span>
                 </a>
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Login Screens:</h6>
-                        <a class="collapse-item" href="login.html">Login</a>
-                        <a class="collapse-item" href="register.html">Register</a>
-                        <a class="collapse-item" href="forgot-password.html">Forgot Password</a>
+                        <h6 class="collapse-header">Homepage :</h6>
+                        <a class="collapse-item" href="#">Header</a>
+                        <a class="collapse-item" href="#">About</a>
+                        <a class="collapse-item" href="#">Information</a>
                         <div class="collapse-divider"></div>
-                        <h6 class="collapse-header">Other Pages:</h6>
-                        <a class="collapse-item" href="404.html">404 Page</a>
-                        <a class="collapse-item" href="blank.html">Blank Page</a>
+                        <h6 class="collapse-header">Other Pages :</h6>
+                        <a class="collapse-item" href="#">Travel Package</a>
+                        <a class="collapse-item" href="#">Payment Confirmation</a>
                     </div>
                 </div>
-            </li>
-            <li class="nav-item">
+            </li> -->
+            <!-- <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fas fa-fw fa-cog"></i>
                     <span>Components</span>
@@ -96,15 +137,10 @@
                     <i class="fas fa-fw fa-table"></i>
                     <span>Tables</span>
                 </a>
-            </li>
+            </li> -->
             <hr class="sidebar-divider d-none d-md-block">
             <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
-            </div>
-            <div class="sidebar-card d-none d-lg-flex">
-                <img class="sidebar-card-illustration mb-2" src="img/undraw_rocket.svg" alt="...">
-                <p class="text-center mb-2"><strong>SB Admin Pro</strong> is packed with premium features, components, and more!</p>
-                <a class="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">Upgrade to Pro!</a>
             </div>
         </ul>
 
@@ -143,9 +179,7 @@
                                 </a>
                             </div>
                         </li>
-
                     </ul>
-
                 </nav>
                 <!-- End of Topbar -->
 
@@ -184,7 +218,7 @@
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.html">Logout</a>
+                    <a class="btn btn-primary" href="#login">Logout</a>
                 </div>
             </div>
         </div>
@@ -195,8 +229,11 @@
     <script src="<?php echo base_url('/dashboard/vendor/jquery-easing/jquery.easing.min.js'); ?>"></script>
     <script src="<?php echo base_url('/dashboard/js/sb-admin-2.min.js'); ?>"></script>
     <script src="<?php echo base_url('/dashboard/vendor/chart.js/Chart.min.js'); ?>"></script>
-    <script src="<?php echo base_url('/dashboard/js/demo/chart-area-demo.j'); ?>s"></script>
+    <script src="<?php echo base_url('/dashboard/js/demo/chart-area-demo.j'); ?>"></script>
     <script src="<?php echo base_url('/dashboard/js/demo/chart-pie-demo.js'); ?>"></script>
+    <script src="<?php echo base_url('/dashboard/vendor/datatables/jquery.dataTables.min.js'); ?>"></script>
+    <script src="<?php echo base_url('/dashboard/vendor/datatables/dataTables.bootstrap4.min.js'); ?>"></script>
+    <script src="<?php echo base_url('/dashboard/js/demo/datatables-demo.js'); ?>"></script>
 
 </body>
 

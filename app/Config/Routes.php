@@ -38,6 +38,10 @@ $routes->get('/package-details', 'PackageDetails::index');
 $routes->get('/contact', 'ContactUs::index');
 
 $routes->get('/admin', 'Admin\DashboardController::index');
+$routes->get('/user', 'Admin\UserController::index');
+$routes->get('/header', 'Admin\HeaderController::index');
+$routes->get('/about', 'Admin\AboutController::index');
+$routes->get('/info', 'Admin\InfoController::index');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
