@@ -22,7 +22,7 @@
   <div class="container">
     <nav class="row navbar navbar-expand-xl bg-white">
       <div class="col-xl-2 d-flex">
-        <a href="#" style="text-decoration: none; color: #98c8db; font-size: 25px; font-weight: 700;">TRAVEL.IN</a>
+        <a href="/" style="text-decoration: none; color: #98c8db; font-size: 25px; font-weight: 700;">TRAVEL.IN</a>
       </div>
       <div class="col-xl-10">
         <button class="navbar-toggler navbar-toggler-left navbar-light" type="button" data-toggle="collapse" data-target="#navb">
@@ -45,8 +45,9 @@
           </ul>
           <!-- mobile button -->
           <form class="form-inline d-xl-block d-xl-none">
-            <button class="btn btn-login my-2 my-xl-0">
-              <p href="#" class="mb-0 font-weight-bold">LOG IN</p>
+            <button class="btn btn-login d-flex my-2 my-xl-0">
+              <p href="#" class="mb-0 font-weight-bold">MY PROFILE</p>
+              <i class="fa fa-sort-down ml-2"></i>
             </button>
           </form>
           <!-- desktop button -->
