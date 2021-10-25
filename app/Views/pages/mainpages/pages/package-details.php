@@ -102,25 +102,33 @@
                 <h4 class="mb-3">Trip Information</h4>
                 <table class="#">
                     <tr>
-                        <th width="50%">Date of Departure</th>
-                        <td width="50%" class="text-right">26 Oct, 2020</td>
+                        <th width="55%">Date of Departure</th>
+                        <td width="45%" class="text-right">26/10/2021</td>
                     </tr>
                     <tr>
-                        <th width="50%">Duration</th>
-                        <td width="50%" class="text-right">4D 3N</td>
+                        <th width="55%">Place of Origin</th>
+                        <td width="45%" class="text-right">Jakarta</td>
                     </tr>
                     <tr>
-                        <th width="50%">Type</th>
-                        <td width="50%" class="text-right">Open Trip</td>
+                        <th width="55%">Duration</th>
+                        <td width="45%" class="text-right">4D 3N</td>
                     </tr>
                     <tr>
-                        <th width="50%">Price</th>
-                        <td width="50%" class="text-right">$80,00 / person</td>
+                        <th width="55%">Type</th>
+                        <td width="45%" class="text-right">Open Trip</td>
+                    </tr>
+                    <tr>
+                        <th width="55%">Person</th>
+                        <td width="45%" class="text-right">1</td>
+                    </tr>
+                    <tr>
+                        <th width="55%">Price</th>
+                        <td width="45%" class="text-right">IDR 800.000</td>
                     </tr>
                 </table>
             </div>
             <div class="join-container">
-                <a href="checkout.html" class="btn btn-block btn-join-now mt-3 py-2" style="border-radius: 0px 0px 12px 12px;">
+                <a href="<?php echo base_url('/data-information') ?>" class="btn btn-block btn-join-now mt-3 py-2" style="border-radius: 0px 0px 12px 12px;">
                     Join Now
                 </a>
             </div>

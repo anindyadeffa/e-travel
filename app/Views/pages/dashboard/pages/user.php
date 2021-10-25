@@ -3,10 +3,18 @@
 
 <!-- Begin Page Content -->
 <div class="container-fluid">
-    <h1 class="h3 mb-2 text-gray-800">Users</h1>
     <div class="card shadow mb-4">
         <div class="card-header py-3">
-            <h6 class="m-0 font-weight-bold text-primary">Data Profile User</h6>
+            <div class="row d-flex">
+                <div class="col-xl-10">
+                    <h6 class="m-2 font-weight-bold text-primary">Data Profile User</h6>
+                </div>
+                <div class="col-xl-2 text-right">
+                    <a href="#" class="btn btn-primary">
+                        <i class="fas fa-plus text-white"></i> Tambah Data
+                    </a>
+                </div>
+            </div>
         </div>
         <div class="card-body">
             <div class="table-responsive">

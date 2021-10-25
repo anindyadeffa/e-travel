@@ -6,6 +6,6 @@ class Register extends BaseController
 {
     public function index()
     {
-        return view('/pages/mainpages/pages/register');
+        return view('/pages/auth/register');
     }
 }

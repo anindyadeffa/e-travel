@@ -33,7 +33,7 @@
             </li>
             <hr class="sidebar-divider">
             <div class="sidebar-heading">
-                Data
+                Interface
             </div>
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url('/user'); ?>">
@@ -41,7 +41,19 @@
                     <span>User</span>
                 </a>
             </li>
-            <hr class="sidebar-divider">
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url('/payment'); ?>">
+                    <i class="fas fa-fw fa-money-bill"></i>
+                    <span>Transaction</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url('/travelpack'); ?>">
+                    <i class="fas fa-fw fa-plane"></i>
+                    <span>Travel Package</span>
+                </a>
+            </li>
+            <!-- <hr class="sidebar-divider">
             <div class="sidebar-heading">
                 Content Management System
             </div>
@@ -65,16 +77,11 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url('/admin'); ?>">
-                    <i class="fas fa-fw fa-plane"></i>
-                    <span>Travel Package</span>
+                    <i class="fas fa-fw fa-money-bill"></i>
+                    <span>Bank Account Information</span>
                 </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('/admin'); ?>">
-                    <i class="fas fa-fw fa-shopping-cart"></i>
-                    <span>Payment Confirmation</span>
-                </a>
-            </li>
+            </li> -->
+
             <!-- <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
                     <i class="fas fa-fw fa-folder"></i>
