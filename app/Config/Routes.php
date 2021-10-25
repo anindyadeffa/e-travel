@@ -36,12 +36,17 @@ $routes->get('/dashboard', 'Home::dashboard');
 $routes->get('/package', 'TravelPackage::index');
 $routes->get('/package-details', 'PackageDetails::index');
 $routes->get('/contact', 'ContactUs::index');
+$routes->get('/data-information', 'DataInformation::index');
+$routes->get('/payment-checkout', 'Checkout::index');
+$routes->get('/verification', 'Verification::index');
 
 $routes->get('/admin', 'Admin\DashboardController::index');
 $routes->get('/user', 'Admin\UserController::index');
-$routes->get('/header', 'Admin\HeaderController::index');
-$routes->get('/about', 'Admin\AboutController::index');
-$routes->get('/info', 'Admin\InfoController::index');
+// $routes->get('/header', 'Admin\HeaderController::index');
+// $routes->get('/about', 'Admin\AboutController::index');
+// $routes->get('/info', 'Admin\InfoController::index');
+$routes->get('/payment', 'Admin\PaymentController::index');
+$routes->get('/travelpack', 'Admin\TravelPackController::index');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

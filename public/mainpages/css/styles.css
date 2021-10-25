@@ -10610,6 +10610,15 @@ a.a_section_info:hover {
   color: #fff;
 }
 
+a.a_section {
+  text-decoration: none;
+  color: #fff !important;
+}
+
+a.a_section:hover {
+  color: #fff !important;
+}
+
 .btn-view-more {
   background-color: #fff;
   color: #9ac9dd;
