@@ -16,43 +16,8 @@
             <div class="card card-details">
                 <h4 class="font-weight-bold" style="color: #F5C234;">Bromo Mount</h4>
                 <p class="text-muted mb-2">East Java</p>
-                <div id="carousel-example-1z" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example-1z" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-1z" data-slide-to="2"></li>
-                        <li data-target="#carousel-example-1z" data-slide-to="3"></li>
-                        <li data-target="#carousel-example-1z" data-slide-to="4"></li>
-                    </ol>
-                    <div class="carousel-inner" role="listbox">
-                        <!-- <div class="item-active">
-                            <img src="" width="100%" alt="">
-                        </div> -->
-                        <!-- https://stackoverflow.com/questions/47122521/dynamic-carousel-codeigniter -->
-                        <div class="carousel-item active">
-                            <img src="<?php echo base_url('/mainpages/img/bromo-1.jpg'); ?>" class="d-block w-100" style="height: 400px;" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="<?php echo base_url('/mainpages/img/bromo-2.jpg'); ?>" class="d-block w-100" style="height: 400px;" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="<?php echo base_url('/mainpages/img/bromo-3.jpg'); ?>" class="d-block w-100" style="height: 400px;" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="<?php echo base_url('/mainpages/img/bromo-4.jpg'); ?>" class="d-block w-100" style="height: 400px;" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="<?php echo base_url('/mainpages/img/bromo-5.jpg'); ?>" class="d-block w-100" style="height: 400px;" alt="...">
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev slider-btn-left" href="#carousel-example-1z" role="button" data-slide="prev">
-                        <span class="fa fa-angle-left" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next slider-btn-right" href="#carousel-example-1z" role="button" data-slide="next">
-                        <span class="fa fa-angle-right" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                <div class="text-center">
+                    <img src="<?php echo base_url('/mainpages/img/bromo.jpg'); ?>" class="w-50 h-50" alt="...">
                 </div>
                 <div class="mt-3">
                     <h4 class="font-weight-bold my-3" style="color: #F5C234;">About Tourism</h4>
