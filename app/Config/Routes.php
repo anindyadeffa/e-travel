@@ -47,6 +47,7 @@ $routes->get('/user', 'Admin\UserController::index');
 // $routes->get('/info', 'Admin\InfoController::index');
 $routes->get('/payment', 'Admin\PaymentController::index');
 $routes->get('/travelpack', 'Admin\TravelPackController::index');
+$routes->get('/feedback', 'Admin\FeedbackController::index');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

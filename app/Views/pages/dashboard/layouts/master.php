@@ -53,6 +53,16 @@
                     <span>Travel Package</span>
                 </a>
             </li>
+            <hr class="sidebar-divider">
+            <div class="sidebar-heading">
+                Services
+            </div>
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url('/feedback'); ?>">
+                    <i class="fas fa-fw fa-newspaper"></i>
+                    <span>Feedback and Services</span>
+                </a>
+            </li>
             <!-- <hr class="sidebar-divider">
             <div class="sidebar-heading">
                 Content Management System
