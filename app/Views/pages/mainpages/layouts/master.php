@@ -12,9 +12,9 @@
   <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> -->
   <!-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"> -->
   <link href="<?php echo base_url('/mainpages/css/styles.css'); ?>" rel="stylesheet" type="text/css">
-  <link href="<?php echo base_url('/mainpages/libraries/font-awesome/css/font-awesome.css') ?>" rel="stylesheet">
-  <link href="<?php echo base_url('/mainpages/libraries/perfect-scrollbar/css/perfect-scrollbar.css') ?>" rel="stylesheet">
-  <link href="<?php echo base_url('/mainpages/libraries/jquery-switchbutton/jquery.switchButton.css') ?>" rel="stylesheet">
+  <link href="<?php echo base_url('/libraries/font-awesome/css/font-awesome.css') ?>" rel="stylesheet">
+  <link href="<?php echo base_url('/libraries/perfect-scrollbar/css/perfect-scrollbar.css') ?>" rel="stylesheet">
+  <link href="<?php echo base_url('/libraries/jquery-switchbutton/jquery.switchButton.css') ?>" rel="stylesheet">
 </head>
 
 <body class="Poppins">
@@ -107,17 +107,17 @@
     </div>
   </section>
 
-  <script src="<?php echo base_url('/mainpages/libraries/jquery/jquery.js') ?>"></script>
-  <script src="<?php echo base_url('/mainpages/libraries/bootstrap/bootstrap.js') ?>"></script>
-  <script src="<?php echo base_url('/mainpages/libraries/jquery/jquery.min.js') ?>"></script>
-  <script src="<?php echo base_url('/mainpages/libraries/bootstrap/bootstrap.min.js') ?>"></script>
-  <script src="<?php echo base_url('/mainpages/libraries/popper.js/popper.js') ?>"></script>
-  <script src="<?php echo base_url('/mainpages/libraries/perfect-scrollbar/js/perfect-scrollbar.jquery.js') ?>"></script>
-  <script src="<?php echo base_url('/mainpages/libraries/jquery-ui/jquery-ui.js') ?>"></script>
-  <script src="<?php echo base_url('/mainpages/libraries/jquery-switchbutton/jquery.switchButton.js') ?>"></script>
-  <script src="<?php echo base_url('/mainpages/libraries/peity/jquery.peity.js') ?>"></script>
-  <script src="<?php echo base_url('/mainpages/libraries/retina/retina.min.js') ?>"></script>
-  <script src="<?php echo base_url('/mainpages/libraries/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
+  <script src="<?php echo base_url('/libraries/jquery/jquery.js') ?>"></script>
+  <script src="<?php echo base_url('/libraries/bootstrap/bootstrap.js') ?>"></script>
+  <script src="<?php echo base_url('/libraries/jquery/jquery.min.js') ?>"></script>
+  <script src="<?php echo base_url('/libraries/bootstrap/bootstrap.min.js') ?>"></script>
+  <script src="<?php echo base_url('/libraries/popper.js/popper.js') ?>"></script>
+  <script src="<?php echo base_url('/libraries/perfect-scrollbar/js/perfect-scrollbar.jquery.js') ?>"></script>
+  <script src="<?php echo base_url('/libraries/jquery-ui/jquery-ui.js') ?>"></script>
+  <script src="<?php echo base_url('/libraries/jquery-switchbutton/jquery.switchButton.js') ?>"></script>
+  <script src="<?php echo base_url('/libraries/peity/jquery.peity.js') ?>"></script>
+  <script src="<?php echo base_url('/libraries/retina/retina.min.js') ?>"></script>
+  <script src="<?php echo base_url('/libraries/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
   <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 </body>

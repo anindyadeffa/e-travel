@@ -15,12 +15,12 @@
 
 <section class="section-package">
     <div class="container py-4">
-        <div class="row d-flex">
-            <div class="col-xl-10 my-4">
+        <div class="row d-flex my-4">
+            <div class="col-xl-10">
                 <h3 class="text-white font-weight-400">Travel Package</h3>
                 <p class="text-white">Discover more popular destinations in Indonesia</p>
             </div>
-            <div class="col-xl-2 my-4 pl-5">
+            <div class="col-xl-2">
                 <a href="<?php echo base_url('/package') ?>" class="btn btn-view-more my-xl-0 mb-0">VIEW MORE</a>
             </div>
         </div>

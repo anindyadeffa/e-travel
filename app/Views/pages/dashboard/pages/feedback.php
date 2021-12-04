@@ -29,9 +29,6 @@
                             <td>08123456789</td>
                             <td>Is there a discount for summer season?</td>
                             <td class="text-center" style="vertical-align: middle;">
-                                <a href="#" class="btn btn-success btn-sm mb-1">
-                                    <i class="fa fa-eye"></i>
-                                </a>
                                 <form action="#" method="post" class="d-inline">
                                     <button class="btn btn-danger btn-sm mb-1">
                                         <i class="fa fa-trash"></i>

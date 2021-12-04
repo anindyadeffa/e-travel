@@ -17,7 +17,7 @@
                 <h4 class="font-weight-bold" style="color: #F5C234;">Bromo Mount</h4>
                 <p class="text-muted mb-2">East Java</p>
                 <div class="text-center">
-                    <img src="<?php echo base_url('/mainpages/img/bromo.jpg'); ?>" class="w-50 h-50" alt="...">
+                    <img src="<?php echo base_url('/mainpages/img/bromo.jpg'); ?>" class="w-50" alt="...">
                 </div>
                 <div class="mt-3">
                     <h4 class="font-weight-bold my-3" style="color: #F5C234;">About Tourism</h4>
