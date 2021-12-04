@@ -34,10 +34,6 @@
                             <label for="message">Address</label>
                             <textarea class="form-control" id="message" rows="4" placeholder="Enter your Address ..."></textarea>
                         </div>
-                        <div class="form-group">
-                            <label for="selected-package">Selected Package</label>
-                            <input class="form-control" type="text" placeholder="Bromo Mount" readonly>
-                        </div>
                         <div class="d-block text-right">
                             <button type="submit" class="btn btn-login px-5">
                                 <a href="<?php echo base_url('/payment-checkout') ?>" class="a_section mb-0 font-weight-bold mx-2">BOOK NOW</a>

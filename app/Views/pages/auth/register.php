@@ -43,32 +43,50 @@
     </style>
 </head>
 
-<body style="background-color: #9ac9dd;" class="Poppins">
-    <div class="login-form">
-        <div class="text-center mb-4" style="color: #ffffff;">
-            <h2><b>TRAVEL.IN</b></h2>
-        </div>
-        <form action="/examples/actions/confirmation.php" method="post">
+<body class="Poppins">
+    <?php
+    $session = session();
+    $error = $session->getFlashdata('error');
+    ?>
+    <section style="background-color: #9ac9dd;">
+        <div class="login-form">
+            <div class="text-center mb-4" style="color: #ffffff;">
+                <a href="<?php echo base_url('/') ?>">
+                    <h2><b>TRAVEL.IN</b></h2>
+                </a>
+            </div>
             <h2 class="text-center">Sign Up</h2>
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="Full Name*" required="required">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="Email*" required="required">
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="Phone Number*" required="required">
-            </div>
-            <div class="form-group">
-                <input type="password" class="form-control" placeholder="Create A Password*" required="required">
-            </div>
-            <p><small>Password Must Be At Least 8 Characters Long</small></p>
-            <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-block">Sign Up</button>
-            </div>
-        </form>
-        <p class="text-center"><a href="<?php echo base_url('/login') ?>">Already have an account? Login.</a></p>
-    </div>
+            <?php if ($error) { ?>
+                <div class="alert alert-danger">
+                    <strong>Maaf!</strong> Terjadi Kesalahan:
+                    <ul>
+                        <?php foreach ($error as $e) { ?>
+                            <li><?php echo $e ?></li>
+                        <?php } ?>
+                    </ul>
+                </div>
+            <?php } ?>
+            <form action="/auth/valid_register" method="POST" autocomplete="off">
+                <div class="form-group">
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Full Name*" required autofocus>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Email*" required>
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control" name="phone" id="phone" placeholder="Phone Number*" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" name="password" id="password" class="form-control" placeholder="Create A Password*" required autocomplete="current-password">
+                </div>
+                <p><small>Password Must Be At Least 8 Characters Long</small></p>
+                <p class="text-center mt-2"><a href="<?php echo base_url('/login') ?>">Already have an account? Login.</a></p>
+                <div class=" form-group">
+                    <button type="submit" class="btn btn-primary btn-block">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </section>
 </body>
 
 </html>

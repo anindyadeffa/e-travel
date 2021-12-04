@@ -2,6 +2,8 @@
 
 namespace Config;
 
+use App\Models\UserModel;
+
 // Create a new instance of our RouteCollection class.
 $routes = Services::routes();
 
@@ -31,6 +33,15 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
+
+// Make Password
+$routes->get('/testpass', 'Auth::testPass');
+
+// Auth
+$routes->get('login', 'Auth::login', ["as" => "login"], ["filter" => "noauth"]);
+$routes->get('register', 'Auth::register', ["as" => "register"], ["filter" => "noauth"]);
+$routes->get('logout', 'Auth::logout', ["as" => "logout"], ["filter" => "noauth"]);
+
 $routes->get('/', 'Home::index');
 $routes->get('/dashboard', 'Home::dashboard');
 $routes->get('/package', 'TravelPackage::index');
@@ -48,6 +59,35 @@ $routes->get('/user', 'Admin\UserController::index');
 $routes->get('/payment', 'Admin\PaymentController::index');
 $routes->get('/travelpack', 'Admin\TravelPackController::index');
 $routes->get('/feedback', 'Admin\FeedbackController::index');
+
+
+$routes->group("admin", ["filter" => "auth"], function ($routes) {
+    $routes->get('/', 'Admin\DashboardController::index', ["as" => "adminIndex"]);
+
+    $routes->group("master", function ($routes) {
+
+        // User
+        // $routes->group("user", function ($routes) {
+        //     $routes->get('/', 'Admin\UserController::index', ["as" => "userIndex"]);
+        //     $routes->get('create', 'Admin\UserController::create', ["as" => "userCreate"]);
+        //     $routes->post('store', 'Admin\UserController::store', ["as" => "userStore"]);
+        //     $routes->get('edit/(:num)', 'Admin\UserController::edit/$1', ["as" => "userEdit"]);
+        //     $routes->post('update/(:num)', 'Admin\UserController::update/$1', ["as" => "userUpdate"]);
+        //     $routes->get('delete/(:num)', 'Admin\UserController::delete/$1', ["as" => "userDelete"]);
+        // });
+
+        // Role
+        $routes->group("role", function ($routes) {
+            $routes->get('/', 'Admin\RoleController::index', ["as" => "roleIndex"]);
+            $routes->get('create', 'Admin\RoleController::create', ["as" => "roleCreate"]);
+            $routes->post('store', 'Admin\RoleController::store', ["as" => "roleStore"]);
+            $routes->get('edit/(:num)', 'Admin\RoleController::edit/$1', ["as" => "roleEdit"]);
+            $routes->post('update/(:num)', 'Admin\RoleController::update/$1', ["as" => "roleUpdate"]);
+            $routes->get('delete/(:num)', 'Admin\RoleController::delete/$1', ["as" => "roleDelete"]);
+        });
+    });
+});
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

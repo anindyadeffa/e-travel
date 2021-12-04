@@ -17,33 +17,6 @@
         <div class="col-xl-12">
             <div class="card card-details">
                 <h4 class="font-weight-bold text-center mb-5" style="color: #F5C234;">PAYMENT CHECKOUT</h4>
-                <h5 class="font-weight-bold mb-4" style="color: #F5C234;">Data Confirmation</h5>
-                <div class="row">
-                    <div class="col-xl-6">
-                        <form action="">
-                            <div class="form-group">
-                                <label for="name">Full Name</label>
-                                <input class="form-control" type="text" placeholder="Nadya Aulia" readonly>
-                            </div>
-                            <div class="form-group">
-                                <label for="selected-package">Selected Package</label>
-                                <input class="form-control" type="text" placeholder="Bromo Mount" readonly>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col-xl-6">
-                        <form action="">
-                            <div class="form-group">
-                                <label for="date">Date of Departure</label>
-                                <input class="form-control" type="text" placeholder="26/10/2021" readonly>
-                            </div>
-                            <div class="form-group">
-                                <label for="origin">Place of Origin</label>
-                                <input class="form-control" type="text" placeholder="Jakarta" readonly>
-                            </div>
-                        </form>
-                    </div>
-                </div>
                 <h5 class="font-weight-bold my-4" style="color: #F5C234;">Payment Details</h5>
                 <div class="row">
                     <div class="col-xl-6">
@@ -92,6 +65,28 @@
                     </div>
                 </div>
                 <h5 class="font-weight-bold my-4" style="color: #F5C234;">Fill Your Payment</h5>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                            <thead>
+                                <tr>
+                                    <th>Full Name</th>
+                                    <th>Phone Number</th>
+                                    <th>Email Address</th>
+                                    <th>Address</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Nadya Aulia</td>
+                                    <td>nadya@gmail.com</td>
+                                    <td>08123456789</td>
+                                    <td>Rumah Jo</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-xl-12">
                         <form action="">

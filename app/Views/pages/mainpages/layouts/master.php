@@ -15,6 +15,7 @@
   <link href="<?php echo base_url('/libraries/font-awesome/css/font-awesome.css') ?>" rel="stylesheet">
   <link href="<?php echo base_url('/libraries/perfect-scrollbar/css/perfect-scrollbar.css') ?>" rel="stylesheet">
   <link href="<?php echo base_url('/libraries/jquery-switchbutton/jquery.switchButton.css') ?>" rel="stylesheet">
+  <link href="<?php echo base_url('/vendor/datatables/dataTables.bootstrap4.min.css'); ?>" rel="stylesheet">
 </head>
 
 <body class="Poppins">
@@ -120,6 +121,8 @@
   <script src="<?php echo base_url('/libraries/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
   <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+  <script src="<?php echo base_url('/vendor/datatables/jquery.dataTables.min.js'); ?>"></script>
+  <script src="<?php echo base_url('/vendor/datatables/dataTables.bootstrap4.min.js'); ?>"></script>
 </body>
 
 </html>

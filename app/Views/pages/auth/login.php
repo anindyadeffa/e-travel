@@ -44,28 +44,59 @@
 </head>
 
 <body style="background-color: #9ac9dd;" class="Poppins">
-    <div class="login-form">
-        <div class="text-center mb-4" style="color: #ffffff;">
-            <h2><b>TRAVEL.IN</b></h2>
+    <?php
+    $session = session();
+    $login = $session->getFlashdata('login');
+    $email = $session->getFlashdata('email');
+    $password = $session->getFlashdata('password');
+    ?>
+    <section>
+        <div class="login-form">
+            <div class="text-center mb-4" style="color: #ffffff;">
+                <a href="<?php echo base_url('/') ?>">
+                    <h2><b>TRAVEL.IN</b></h2>
+                </a>
+            </div>
+            <?php if ($email) { ?>
+                <div class="alert alert-danger w-100 mx-auto">
+                    <button type="button" class="close" data-dismiss="alert">×</button>
+                    <strong><?php echo $email ?></strong>
+                </div>
+            <?php } ?>
+
+            <?php if ($password) { ?>
+                <div class="alert alert-danger w-100 mx-auto">
+                    <button type="button" class="close" data-dismiss="alert">×</button>
+                    <strong><?php echo $password ?></strong>
+                </div>
+            <?php } ?>
+
+            <?php if ($login) { ?>
+                <div class="alert alert-success w-100 mx-auto">
+                    <button type="button" class="close" data-dismiss="alert">×</button>
+                    <strong><?php echo $login ?></strong>
+                </div>
+            <?php } ?>
+
+            <form action="/auth/valid_login" method="POST" autocomplete="off">
+                <h2 class="text-center">Login</h2>
+                <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="enamil" placeholder="Email Address" required autocomplete="email" autofocus>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Password" required autocomplete="current-password">
+                </div>
+                <!-- <div class="clearfix">
+                    <label class="float-left form-check-label"><input type="checkbox"> Remember me</label>
+                    <a href="#" class="float-right">Forgot Password?</a>
+                </div> -->
+                <p class="text-center"><a href="<?php echo base_url('/register') ?>">don’t have an account? Sign Up.</a></p>
+                <div class="form-group">
+                    <button type="submit" id="btn-custom" class="btn btn-primary btn-block">Login</button>
+                </div>
+            </form>
         </div>
-        <form action="/examples/actions/confirmation.php" method="post">
-            <h2 class="text-center">Login</h2>
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="Email Address" required="required">
-            </div>
-            <div class="form-group">
-                <input type="password" class="form-control" placeholder="Password" required="required">
-            </div>
-            <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-block">Login</button>
-            </div>
-            <div class="clearfix">
-                <label class="float-left form-check-label"><input type="checkbox"> Remember me</label>
-                <a href="#" class="float-right">Forgot Password?</a>
-            </div>
-        </form>
-        <p class="text-center"><a href="<?php echo base_url('/register') ?>">don’t have an account? Sign Up.</a></p>
-    </div>
+    </section>
 </body>
 
 </html>
